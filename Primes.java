@@ -21,11 +21,10 @@ public class Primes {
         System.out.println("Prime numbers up to " + num + ": ");
         for (int i = 2; i <= num; i++) {
             if (isPrime[i]) {
-                System.out.print(i + " ");  
+                System.out.println(i);  
                 sum++;
             }
         }
-        System.out.println(); 
         System.out.println("There are " + sum + " primes between 2 and " + num + " (" + (sum * 100 / num) + "% are primes)");
     }
 }
