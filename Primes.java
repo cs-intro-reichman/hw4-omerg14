@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-public class Primes {
-    public static void main(String[] args) {
-        // Replace this statement with your code
-    }
-}
-=======
 public class Primes {
     public static void main(String[] args) {
         int num = Integer.parseInt(args[0]);
@@ -36,4 +29,3 @@ public class Primes {
         System.out.println("There are " + sum + " primes between 2 and " + num + " (" + (sum * 100 / num) + "% are primes)");
     }
 }
->>>>>>> b5426f6 (part1)
