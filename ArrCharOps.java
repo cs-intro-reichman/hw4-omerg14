@@ -167,13 +167,11 @@ public class ArrCharOps {
         char [] cStr1 = new char[str1.length()];
         char [] cStr2 = new char[str2.length()];
         for (int i = 0; i < str1.length(); i++) {
-            String newStr1 = str1.toLowerCase();
-            char c1 = newStr1.charAt(i);
+            char c1 = str1.charAt(i);
             cStr1[i] = c1;
         } 
         for (int i = 0; i < str2.length(); i++) {
-            String newStr2 = str2.toLowerCase();
-            char c2 = newStr2.charAt(i);
+            char c2 = str2.charAt(i);
             cStr2[i] = c2;
         }
 
@@ -186,9 +184,9 @@ public class ArrCharOps {
         } else if (cStr1.length == cStr2.length) {
             for (int i = 0; i < cStr1.length; i++) {
                 if (cStr1[i] > cStr2[i]) {
-                    return 1;
-                } else if (cStr2[i] > cStr1[i]) {
                     return -1;
+                } else if (cStr2[i] > cStr1[i]) {
+                    return 1;
                 } 
             }
         } 
