@@ -184,9 +184,9 @@ public class ArrCharOps {
         } else if (cStr1.length == cStr2.length) {
             for (int i = 0; i < cStr1.length; i++) {
                 if (cStr1[i] > cStr2[i]) {
-                    return -1;
-                } else if (cStr2[i] > cStr1[i]) {
                     return 1;
+                } else if (cStr2[i] > cStr1[i]) {
+                    return -1;
                 } 
             }
         } 
